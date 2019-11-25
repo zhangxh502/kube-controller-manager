@@ -1,4 +1,4 @@
-FROM gcr.io/google-containers/kube-controller-manager:v1.14.2
+FROM gcr.io/google-containers/kube-controller-manager:v1.15.0
 
 RUN apt-get update \
     && apt-get -y upgrade \
